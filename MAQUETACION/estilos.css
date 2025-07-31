@@ -1,0 +1,31 @@
+.container1{
+border: solid 1px  black;
+border-radius: 10px;
+background-color: gray;
+height: 100px;
+width: 100%;
+/* padding: 50px; */
+padding-top: 50px;
+padding-bottom: 20px;
+padding-left: 50px;
+margin-bottom: 30px;
+}
+
+ol{
+color: white;
+}
+
+.container2{
+
+border: rgb(240, 240, 236);
+padding: 35px;
+height: 100px;
+width: 100%;
+background-image: url("https://images.unsplash.com/photo-1652195960911-c9f55224bd89?q=80&w=387&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+background-repeat: no-repeat;
+background-position: center;
+background-size: 100px auto;
+background-color: rgb(240, 240, 236);
+
+
+}
