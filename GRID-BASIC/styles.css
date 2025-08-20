@@ -1,0 +1,56 @@
+body{
+margin: 0;
+}
+
+.navbar-contenedor{
+display: flex;
+text-align: center;
+justify-content: space-between;
+border-radius: 10px;
+}
+
+.logo {
+display: flex;
+justify-content: end;
+height: 50px;
+
+}
+.menu{
+border: solid 1px black;
+
+}
+ul{
+width: 450px;
+display: flex;
+justify-content: space-between;
+font-style: italic;
+
+
+}
+ 
+.itmes {
+color: black;
+border: solid 1px black;
+
+
+}
+
+
+.contenedorformualario{
+
+width: 240px;
+
+}
+.formulario{
+padding-top: 15px;
+
+}
+.buscar{
+cursor: pointer;
+}
+
+.contenido{
+background-color: gray;
+height: 650px;
+border-radius: 10px;
+}
