@@ -1,0 +1,19 @@
+
+.container{
+    background:gray;
+
+  width: 100%;
+  
+}
+.container1{
+  background:red;
+  margin: 20px;
+  width: 200px;
+  display: inline-block; 
+}
+.container2{
+  background:blue;
+  margin: 20px;
+  width: 200px;
+  display:inline-block;
+}
