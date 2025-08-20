@@ -1,0 +1,39 @@
+.container{
+display: grid;
+grid-template-areas:
+"header_css header_css"
+"menu_css content_css"
+"footer_css footer_css";
+
+grid-template-columns: 1fr 3fr  ;
+background-color: gray;
+padding: 5px;
+ }
+
+ /* se aplica a los div del  container  */
+ .container div.header{
+    background-color: aqua;
+    grid-area: header_css;
+    text-align: center;
+  
+}
+
+.container div.menu{
+background-color: blueviolet;
+grid-area: menu_css;
+
+}
+
+.container div.contenido{
+background-color: red;
+grid-area: content_css;
+}
+
+.container div.footer{
+  background:blue;
+  grid-area:footer_css;
+
+}
+
+
+
