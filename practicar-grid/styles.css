@@ -1,0 +1,76 @@
+.container{
+display: grid;
+grid-template-areas: 
+"titulo_css titulo_css titulo_css"
+"header_css header_css header_css"
+"contenido_css contenido_css aside_css"
+"footer_css footer_css footer_css";
+
+
+grid-template-columns: 1fr 1fr 1fr;
+grid-gap: 10px;
+}
+
+.titulo {
+    background-color: blueviolet;
+    grid-area: titulo_css;
+
+}
+h3{
+text-align: center;
+}
+
+.header{
+grid-area: header_css;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: solid 2px peru;
+padding: 0.3px 0.3px;
+height: auto;
+
+}
+
+.logo{
+border: solid 2px red;
+width: 150px;
+
+
+}
+
+.log{
+height: 40px;
+
+}
+.menu ul{
+border: solid 2px rebeccapurple;
+display: flex;
+gap: 40px;
+list-style: none;
+}
+.login{
+border: solid 2px yellow;
+width: 320px;
+display: flex;
+gap: 10px;
+justify-content: end;
+}
+
+
+
+.contenido{
+background-color: blue;
+grid-area: contenido_css;
+height: 400px;
+}
+
+
+.aside{
+background-color: green;
+grid-area: aside_css;
+}
+.footer{
+background-color: gray;
+grid-area: footer_css;
+height: 50px;
+}
